@@ -13,6 +13,12 @@ This project is a fork of the [Fly By](https://github.com/jessehhydee/fly-by) pr
 - Propeller animations with speed variations
 - Drone tilt effects based on movement direction
 
+### Demo
+
+Check out the demo video below to see the drone simulator in action:
+
+https://github.com/dushyant/fly-by/blob/main/demo.mp4
+
 ### Controls
 
 - Arrow keys: Control drone movement
