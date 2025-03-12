@@ -15,9 +15,23 @@ This project is a fork of the [Fly By](https://github.com/jessehhydee/fly-by) pr
 
 ### Demo
 
-Check out the demo video below to see the drone simulator in action:
+Check out the demo video to see the drone simulator in action:
 
-https://github.com/dushyant/fly-by/blob/main/demo.mp4
+<div align="center">
+  <a href="demo.mp4">
+    <img src="https://img.shields.io/badge/Watch-Demo%20Video-blue?style=for-the-badge&logo=github" alt="Watch Demo Video" />
+  </a>
+</div>
+
+The video demonstrates the drone's flight capabilities, physics, and camera views in the procedurally generated environment.
+
+<!-- The video tag below will work when viewed on GitHub Pages -->
+<div align="center">
+  <video width="640" height="360" controls>
+    <source src="demo.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 ### Controls
 
