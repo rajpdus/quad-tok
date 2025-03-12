@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<!-- 
+  This is a partial HTML template showing the changes required 
+  to update the Quad Tok UI for the drone implementation.
+  Replace the corresponding sections in your index.html file.
+-->
+
+<html class="fullscreen" lang="en">
+  <head>
+    <title>Quad Tok</title>
+    <!-- Other head content remains the same -->
+    
+    <!-- Add the drone animation script import -->
+    <script type="importmap">
+      {
+        "imports": {
+          "three": "https://unpkg.com/three@0.151.0/build/three.module.js",
+          "three/addons/": "https://unpkg.com/three@0.151.0/examples/jsm/"
+        }
+      }
+    </script>
+  </head>
+
+  <body class="fullscreen">
+    <!-- Most of the body remains the same -->
+
+    <!-- Update the Birds Eye View button to Drone Camera -->
+    <div class="hex-container hex-birds-eye">
+      <img 
+       class="icon" 
+       src="assets/icons/drone-camera.svg" 
+       alt="Drone Camera">
+      <div class="hex hex-one"></div>
+      <div class="hex hex-two"></div>
+    </div>
+
+    <!-- Update the info modal to include drone information -->
+    <div class="info-modal-page">
+      <div class="info-box">
+        <div class="info-close">
+          <img 
+           class="icon" 
+           src="assets/icons/exit.svg" 
+           alt="Exit Icon">
+          <div class="hex hex-one"></div>
+          <div class="hex hex-two"></div>
+        </div>
+        <h1>Fly By</h1>
+        <p>
+          This project started off as a procedually generated 10 by 10 tile of hexagons.
+          The evolution of the Fly By experience is rather simple; 
+          One feature idea at a time, never knowing what this project may become.
+          <br><br>
+          The drone model adds a modern twist to this exploration game,
+          allowing you to soar above the landscape with precision control.
+          <br><br>
+          - Jesse
+        </p>
+      </div>
+    </div>
+
+    <!-- Load the main script -->
+    <script src="index.js" type="module"></script>
+  </body>
+</html> 
